@@ -21,3 +21,11 @@ sudo apt install ansible -y
 
 ### Run ansible module 
 ```ansible all -m shell -a "ls -al"```
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+``
