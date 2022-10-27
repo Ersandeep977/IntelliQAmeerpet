@@ -1,5 +1,5 @@
 # Ansible installing
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
+-(https://ghantee.com/wp-content/uploads/2021/09/lord-krishna-best-hd-wallpaper-for-laptop-1080p-1536x864.jpg) `#f03c15`
 ### This file is used to install Ansible in master 
 ```
 #! /bin/bash
