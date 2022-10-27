@@ -10,6 +10,7 @@ sudo apt update
 sudo apt install ansible -y 
 ```
 ## Ansible Inventery File Entery
+### sudo vim /etc/ansible/hosts
 ```
 [targets]
 
