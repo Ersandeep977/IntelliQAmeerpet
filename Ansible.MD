@@ -1,6 +1,6 @@
 # Ansible installing
 - ![](https://geekflare.com/wp-content/uploads/2019/06/ansible.jpg)
-### This file is used to install Ansible in master 
+### This file is used to install Ansible in master(Unbuntu Server) 
 ```
 #! /bin/bash
 sudo apt update
