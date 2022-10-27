@@ -20,7 +20,9 @@ sudo apt install ansible -y
 ```- ansible all -a "ls -al"```
 
 ### Run ansible module 
-```ansible all -m shell -a "ls -al"```
+```
+# ansible all -m shell -a "ls -al"
+```
 
 ```diff
 - text in red
