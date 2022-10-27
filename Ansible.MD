@@ -1,6 +1,6 @@
 # Ansible installing
 
-## this file is used to install Ansible in master 
+### this file is used to install Ansible in master 
 
 ```
 #! /bin/bash
