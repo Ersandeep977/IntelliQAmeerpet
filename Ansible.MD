@@ -14,10 +14,10 @@ sudo apt install ansible -y
 # Ansible command
 
 # to ping the all server working fine or not
-ansible all -m ping -v
+```ansible all -m ping -v```
 
 # run simple ls -al command
-ansible all -a "ls -al"
+```ansible all -a "ls -al"```
 
 # run ansible module 
-ansible all -m shell -a "ls -al"
+```ansible all -m shell -a "ls -al"```
