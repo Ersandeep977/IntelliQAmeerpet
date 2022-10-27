@@ -11,13 +11,13 @@ sudo apt update
 sudo apt install ansible -y 
 ```
 
-# Ansible command
+### Ansible command
 
-# to ping the all server working fine or not
+### to ping the all server working fine or not
 ```ansible all -m ping -v```
 
-# run simple ls -al command
+### run simple ls -al command
 ```ansible all -a "ls -al"```
 
-# run ansible module 
+### run ansible module 
 ```ansible all -m shell -a "ls -al"```
