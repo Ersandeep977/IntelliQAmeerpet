@@ -10,7 +10,9 @@ sudo apt update
 sudo apt install ansible -y 
 ```
 ## Ansible Inventery File Entery
-```[targets]
+```
+[targets]
+
 localhost              ansible_connection=local
 other1.example.com     ansible_connection=ssh        ansible_user=mpdehaan
 other2.example.com     ansible_connection=ssh        ansible_user=mdehaan
