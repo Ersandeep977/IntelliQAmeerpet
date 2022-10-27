@@ -1,5 +1,5 @@
 # Ansible installing
-
+- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
 ### This file is used to install Ansible in master 
 ```
 #! /bin/bash
