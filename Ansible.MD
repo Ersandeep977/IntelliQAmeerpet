@@ -1,6 +1,6 @@
 # Ansible installing
 
-### this file is used to install Ansible in master 
+### This file is used to install Ansible in master 
 
 ```
 #! /bin/bash
@@ -13,11 +13,11 @@ sudo apt install ansible -y
 
 ### Ansible command
 
-### to ping the all server working fine or not
+### To ping the all server working fine or not
 ```ansible all -m ping -v```
 
-### run simple ls -al command
+### Run simple ls -al command
 ```ansible all -a "ls -al"```
 
-### run ansible module 
+### Run ansible module 
 ```ansible all -m shell -a "ls -al"```
