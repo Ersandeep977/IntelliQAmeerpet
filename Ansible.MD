@@ -1,5 +1,5 @@
 # Ansible installing
-- ![#f03c15](https://geekflare.com/wp-content/uploads/2019/06/ansible.jpg)
+- ![ansible](https://geekflare.com/wp-content/uploads/2019/06/ansible.jpg)
 ### This file is used to install Ansible in master 
 ```
 #! /bin/bash
