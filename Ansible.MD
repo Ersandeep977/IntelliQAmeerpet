@@ -17,7 +17,7 @@ sudo apt install ansible -y
 ```ansible all -m ping -v```
 
 ### Run simple ls -al command
-```ansible all -a "ls -al"```
+``` - ansible all -a "ls -al"```
 
 ### Run ansible module 
 ```ansible all -m shell -a "ls -al"```
