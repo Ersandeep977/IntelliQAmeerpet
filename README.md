@@ -27,7 +27,7 @@ sudo apt-get install -y jenkins
 sudo systemctl start jenkins
 ```
 ## install Tomcat9
-# install Tomcat Server for permanent
+### install Tomcat Server for permanent
 ```
 #! /bin/bash
 sudo apt-get update 
@@ -39,29 +39,12 @@ sudo apt-get update
 ```
 cd /etc/tomcat
 sudo vim tomcat-users.xml
-``` 
+```   
 ### Delete all the content and add the below content
 ```  
 <tomcat-users>
 <user username="intelliqit" password="intelliqit" roles="manager-script"/> 
 </tomcat-users>
+
+sudo service tomcat9 restart
 ```
-sudo service tomcat9 restart
-#! /bin/bash
-sudo apt-get update 
-sudo apt-get install -y tomcat9
-sudo apt-get install -y tomcat9-admin
-sudo apt-get update
-
-*Edit the tomcat-users.xml file
-
-cd /etc/tomcat
-sudo vim tomcat-users.xml
-  
-Delete all the content and add the below content
-  
-<tomcat-users>
-<user username="intelliqit" password="intelliqit" roles="manager-script"/> 
-</tomcat-users>
-
-sudo service tomcat9 restart
