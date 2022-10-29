@@ -43,7 +43,7 @@ sudo vim tomcat-users.xml
 ### Delete all the content and add the below content
 ```  
 <tomcat-users>
-<user username="intelliqit" password="intelliqit" roles="manager-script"/> 
+<user username="sandeep" password="sandeep" roles="manager-script"/> 
 </tomcat-users>
 
 sudo service tomcat9 restart
