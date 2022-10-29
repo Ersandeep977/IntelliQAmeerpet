@@ -1,5 +1,5 @@
-# IntelliQAmeerpet
-this is the Repository for the AWS DevOps Part 
+# IntelliQ Ameerpet
+This Repository for the AWS DevOps Part Some Notes.. 
 
 ## Groovy comment
 ### Multi  Line Comment On Groovy Script
