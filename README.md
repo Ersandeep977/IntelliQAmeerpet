@@ -14,7 +14,7 @@ This Repository for the AWS DevOps Part Some Notes..
 ```
 
 ## Jenkins Installing
-### this program file install jenking for permanent
+### this program file install jenking for permanent in Debian Unbuntu server
 ```
 #! /bin/bash
 sudo apt-get update 
