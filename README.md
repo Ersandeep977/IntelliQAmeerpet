@@ -45,6 +45,6 @@ sudo vim tomcat-users.xml
 <tomcat-users>
 <user username="sandeep" password="sandeep" roles="manager-script"/> 
 </tomcat-users>
-
-sudo service tomcat9 restart
 ```
+#### Restart the Tomcat Server  
+``` sudo service tomcat9 restart ```
