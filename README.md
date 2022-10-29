@@ -27,7 +27,7 @@ sudo apt-get install -y jenkins
 sudo systemctl start jenkins
 ```
 ## install Tomcat9
-### install Tomcat Server for permanent
+### install Tomcat Server for permanentin Debian Unbuntu server
 ```
 #! /bin/bash
 sudo apt-get update 
