@@ -1,5 +1,5 @@
 # IntelliQ Ameerpet
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Friscenfraud.nl%2F2021%2F08%2F18%2Fintelliq-and-rf-analyse-join-forces-to-combat-fraud%2F&psig=AOvVaw2roBQJCd9-Gr40b9gRBx7K&ust=1667734492376000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKCkoKr5lvsCFQAAAAAdAAAAABAD)
+![](https://riscenfraud.nl/wp-content/uploads/2021/08/logo-IntelliQ.png)
 This Repository for the AWS DevOps Part Some Notes.. 
 
 ## Groovy comment
