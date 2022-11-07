@@ -35,3 +35,9 @@ Adhoc commands
 playbook
 Roles
 ```
+# Ansible Command adhoc
+ansible all -i /etc/ansible/hosts -m command -a 'ls -al'
+ansible all -a "ls -al"
+
+https://get.docker.com/
+
