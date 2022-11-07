@@ -1,0 +1,25 @@
+---
+- name: Configuring Apache2
+  hosts: all
+  tasks:
+   - name: Install apache2
+     apt:
+      name: apache2
+      state: present
+   - name: Edit the idnex.html file
+     copy:
+      content: "Welcome to sandeep"
+      dest: /var/www/html/index.html
+   - name: Restart apache2
+     service:
+      name: apache2
+      state: restarted
+   - name: Check url response for server1
+     uri:
+      url: http://3.18.106.142
+      status_code: 200
+   - name: Check url response for server2
+     uri:
+      url: http://18.188.215.35
+      status_code: 200
+...
