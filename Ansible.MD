@@ -28,3 +28,10 @@ other2.example.com     ansible_connection=ssh        ansible_user=mdehaan
 
 ### Run ansible module 
 ```ansible all -m shell -a "ls -al"```
+
+#### Three way to run ansible
+```
+Adhoc commands
+playbook
+Roles
+```
