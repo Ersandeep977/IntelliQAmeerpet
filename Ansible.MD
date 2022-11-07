@@ -284,8 +284,8 @@ state=stopped for stopping services
   ansible all -m service -a 'name=tomcat9 state=restarted' -b
 ```
 ### get_url Module
+```
 Ansible command to downlaod jenkins.war into all managed nodes
-
 ansible all -m get_url -a 'url=http://mirrors.jenkins.io/war-stable/2.235.3/jenkins.war dest=/tmp'
 ```
 ## Replace Module
