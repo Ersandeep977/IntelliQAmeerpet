@@ -47,3 +47,7 @@ sudo vim tomcat-users.xml
 ```
 #### Restart the Tomcat Server  
 ``` sudo service tomcat9 restart ```
+### Running the jenkins service to other port no 
+``` java -jar jenkins.war --httpPort=9090 ```
+
+
