@@ -1,0 +1,9 @@
+---
+- name: install tree
+  hosts: web
+  tasks:
+    - name: install tree
+      apt:  
+        name: "{{a}}"
+        state: "{{b}}"
+        update_cache: "{{c}}"
