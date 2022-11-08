@@ -1,0 +1,14 @@
+---
+- name: install/unstall s/w's
+  hosts: all
+  vars:
+    - a: tree
+    - b: present
+    - c: yes
+  tasks:
+    - name: install/untall
+      apt: 
+        name: "{{a}}"
+        state: "{{b}}"
+        update_cache: "{{c}}"
+        
