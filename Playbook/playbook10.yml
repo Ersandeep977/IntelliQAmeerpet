@@ -1,0 +1,13 @@
+---
+- name: install s/w apps
+  hosts: all
+  tasks:
+    - name: install s/w
+      apt:
+        name: "{{item}}"
+        state: present
+        update_cache: no 
+      with_items: 
+        - tree
+        - git
+        - maven
