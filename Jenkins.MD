@@ -36,7 +36,7 @@ sudo apt-get update
 ```
 ### Edit the tomcat-users.xml file
 ```
-cd /etc/tomcat
+cd /etc/tomcat9
 sudo vim tomcat-users.xml
 ```   
 ### Delete all the content and add the below content
