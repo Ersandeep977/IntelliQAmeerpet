@@ -47,6 +47,16 @@ sudo vim tomcat-users.xml
 ```
 #### Restart the Tomcat Server  
 ``` sudo service tomcat9 restart ```
+## install tomcat9 using user data
+```
+#! /bin/bash
+sudo apt-get update 
+sudo apt-get install -y tomcat9
+sudo apt-get install -y tomcat9-admin
+sudo apt-get update
+sudo echo  "<tomcat-users> <user username="sandeep" password="sandeep" roles="manager-script"/> </tomcat-users>" > /etc/tomcat9/tomcat-users.xml
+sudo service tomcat9 restart
+```
 ### Running the jenkins service to other port no 
 ``` java -jar jenkins.war --httpPort=9090 ```
 
