@@ -29,3 +29,4 @@ Cidr_block_private_subnet = "10.0.2.0/24"
 #security group Block
 SgPorts = [22, 80, 444, 21]
 ```
+![thank](https://user-images.githubusercontent.com/78929192/201600875-8b2f24e6-2835-4b57-8cf4-7321d8d244e5.png)
