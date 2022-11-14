@@ -11,6 +11,7 @@ sample 1
 
 
 # terrafrom Block
+```
 rgion = "us-east-1"
 
 # Ec2 block
@@ -27,4 +28,4 @@ Cidr_block_private_subnet = "10.0.2.0/24"
 
 #security group Block
 SgPorts = [22, 80, 444, 21]
-
+```
