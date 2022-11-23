@@ -1,4 +1,8 @@
 # emp and dept table in mysql
+##  Docker Command
+```
+docker run --name db1 -d  -e MYSQL_ROOT_PASSWORD=sandeep mysql
+```
 ```
 DROP TABLE IF EXISTS emp;
 
