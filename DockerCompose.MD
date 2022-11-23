@@ -49,3 +49,26 @@ services:
       - myjenkins:jenkins
 ...
 ```
+### LAMP Container Architecture
+```
+---
+version: '3.8'
+services:
+  mydb:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: sandeep
+  apache:
+    image: httpd
+    ports:
+      - 9999:80
+    links:
+      - mydb:mysql
+  php:
+    image: php:7.2-apache
+    links:
+      - mydb:mysql
+      - apache:httpd
+...
+```
+
