@@ -1,5 +1,5 @@
 
-## docker-compose file Example
+## Docker-compose file Example
 ### Command
 ```
 # vim docker-compose.yml
