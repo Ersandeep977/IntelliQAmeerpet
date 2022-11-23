@@ -1,4 +1,4 @@
-
+![](https://quintagroup.com/cms/technology/Images/docker-compose-button.jpg)
 ## Docker-compose file Example
 ### Command
 ```
