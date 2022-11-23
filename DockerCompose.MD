@@ -71,4 +71,11 @@ services:
       - apache:httpd
 ...
 ```
+### Change docker-compose file name other one
+```
+Docker Compose file name is change the abc.yml
+# cp docker-compose.yml abc.yml
+# docker compose -f abc.yml up -d
+# docker compose down
+```
 
