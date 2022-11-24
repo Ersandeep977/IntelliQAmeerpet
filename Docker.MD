@@ -4,6 +4,7 @@ https://get.docker.com/
 ### install docker
 ```
 #! /bin/bash
+apt-get update
 curl -fsSL https://test.docker.com -o test-docker.sh
 sh test-docker.sh
 ```
