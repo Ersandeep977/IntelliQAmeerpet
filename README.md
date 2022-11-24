@@ -22,7 +22,7 @@ Sandeep Kumar Patel
 ### vim Editer
 delete all the older content
 ```dG```
-# Some Other Nodes list
+# Some Nodes list
 ## Git and GitHub
 ## terraform
 ## jenkins
