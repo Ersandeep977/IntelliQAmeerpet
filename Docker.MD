@@ -1,7 +1,7 @@
 # Docker Notes
 ### Docker web link
 https://get.docker.com/
-### install 
+### install docker
 ```
 #! /bin/bash
 curl -fsSL https://test.docker.com -o test-docker.sh
