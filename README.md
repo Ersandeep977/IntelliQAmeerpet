@@ -23,15 +23,15 @@ Sandeep Kumar Patel
 delete all the older content
 ```dG```
 # Some Other Nodes list
-# Git and GitHub
-# terraform
-# jenkins
-# Docker
-# Podman
-# Kubernet
-# Prometheus
-# Grafana
-# Ansible
+## Git and GitHub
+## terraform
+## jenkins
+## Docker
+## Podman
+## Kubernet
+## Prometheus
+## Grafana
+## Ansible
 ### 1.Playbook folder in side all the playbook
 
 
