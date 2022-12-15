@@ -11,7 +11,11 @@
 ```
 // this is a single line comment
 ```
-
+### Given the power for all permision
+```
+vi /etc/sudoers
+jenkins ALL=(ALL) NOPASSWD:ALL
+```
 ## Jenkins Installing Using User data
 ### this program file install jenking for permanent in Debian Unbuntu server
 ```
