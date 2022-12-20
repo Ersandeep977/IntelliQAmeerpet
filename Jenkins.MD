@@ -63,4 +63,31 @@ sudo vim tomcat-users.xml
 ### Running the jenkins service to other port no 
 ``` java -jar jenkins.war --httpPort=9090 ```
 
+### jenkin when condition
+```
+pipeline {
+    agent any
+    parameters { choice choices: ['dev', 'qa', 'prod'], description: 'chose the maine', name: 'appEnv'}
+    stages {
+        stage('delpoy to dev') {
+                when {expression {params.appEnv == "dev"}}
+            steps {
+                echo 'deploying to devlopment'
+            }
+        }
+        stage('delpoy to qa') {
+            when {expression {params.appEnv == "qa"}}
+            steps {
+                echo 'deploying to  qa'
+            }
+        }
+        stage('delpoy to prod') {
+            when {expression {params.appEnv == "prod"}}
+            steps {
+                echo 'deploying to prod '
+            }
+        }
+    }
+}
 
+```
