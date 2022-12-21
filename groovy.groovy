@@ -12,3 +12,10 @@ println 2-1
 println 1*2
 println 1/2
 println 1%2
+
+data =10
+if(data%2 == 0) {
+    println "Even"
+} else {
+    println 'Odd'
+}
